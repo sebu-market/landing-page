@@ -5,7 +5,7 @@ function Leaf({ className, }: { className?: string }) {
     return (
         <svg className={
             cn(
-                "w-[13%] fill-[#f7efe5] stroke-black stroke-[0.4px] absolute origin-bottom transition duration-1000 transform ease-in-out delay-500",
+                "w-[20%] lg:w-[13%] fill-[#f7efe5] stroke-black stroke-[0.4px] absolute origin-bottom transition duration-1000 transform ease-in-out delay-500",
                 className,
             )
         }
@@ -32,11 +32,10 @@ export function Logo({ className }: { className?: string }) {
     return (
         <div className={
             cn(
-                "group w-96 h-64 flex items-center justify-center",
+                "group w-full flex items-center justify-center",
                 className,
             )}>
             <Leaf />
-
             <Leaf className={shouldAnimate ? "rotate-[25deg] z-[15]" : "rotate-0"} />
             <Leaf className={shouldAnimate ? "rotate-[-25deg] z-[15]" : "rotate-0"} />
             <Leaf className={shouldAnimate ? "rotate-[50deg] z-[30]" : "rotate-0"} />
