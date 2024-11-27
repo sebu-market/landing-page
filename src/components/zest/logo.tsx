@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Leaf({ className, }: { className?: string }) {
     return (

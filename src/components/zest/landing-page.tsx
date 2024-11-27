@@ -3,7 +3,7 @@ import { Logo } from "./logo"
 export function LandingPage() {
     return (
 
-        <div className="flex bg-[#f7efe5] p-4 md:p-10 h-screen lg:min-h-[600px]">
+        <div className="flex p-4 md:p-10 h-screen lg:min-h-[600px] max-w-screen-2xl mx-auto">
 
             <div className="h-full relative w-0 invisible lg:visible lg:w-1/4">
                 <div className="absolute top-0 bg-black left-0 h-10 w-full"></div>
@@ -13,7 +13,7 @@ export function LandingPage() {
             <div className='w-full lg:w-1/2 grid grid-rows-2 justify-middle items-end gap-0'>
                 <Logo className="items-end col-span-2 lg:col-span-1" />
 
-                <div className="font-arial font-medium text-8xl grow text-center col-span-2 lg:col-span-1">
+                <div className="font-arial font-medium text-8xl grow text-center lg:text-right col-span-2 lg:col-span-1">
                     zest
                 </div>
 
