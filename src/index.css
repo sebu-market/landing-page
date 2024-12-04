@@ -65,3 +65,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.logo-animated {
+	transition: transform 0.6s cubic-bezier(0.85, 0, 0.15, 1);
+}

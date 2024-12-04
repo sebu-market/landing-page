@@ -1,5 +1,5 @@
 import './App.css'
-import { LandingPage } from './components/zest/landing-page'
+import { LandingPage } from './components/sebu/landing-page'
 
 function App() {
 
